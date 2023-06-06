@@ -1,0 +1,113 @@
+header{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+@media screen and (max-width: 600px) {
+    header{
+        flex-direction: column;
+    }
+    .nav-bar{
+        flex-direction: column;
+        width: 100%;
+    }
+    #revoulogo{
+        margin-bottom: 12px;
+    }
+  }
+
+footer{
+    border: 1px solid black;
+   
+}
+#textfooter{
+    display: flex;
+    justify-content: end;
+}
+
+.formoutput{
+    width: 50%;
+    border: 1px solid black;
+}
+
+#bgimg{
+    height: 578px;
+    
+ 
+}
+
+#hero{
+    height: 578px;
+    background-image: url("https://i2.wp.com/blog.tripcetera.com/id/wp-content/uploads/2020/10/Danau-Toba-edited.jpg");
+    background-color: #f0f0f0;
+}
+
+#Message{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.nav-bar{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 40px;
+}
+
+.nav-bar :last-child{
+    border-right: none;
+}
+
+
+.nav-item{
+    padding: 5px 1em;
+    width: 90px;
+    border-right: 1px solid black;
+    cursor: pointer;
+}
+.nav-item:hover{
+    background: gray;
+}
+
+#revoulogo{
+    width: 50px;
+}
+.wrapper{
+    display: flex;
+}
+.headquarterimg1{
+    height: 5em;
+    width: 5em;
+    border: 1px solid black;
+    background-image: url("https://img.okezone.com/content/2022/12/01/406/2718356/inilah-8-perbedaan-kota-jakarta-dan-yogyakarta-pilih-tinggal-di-mana-NBEqXd4H2D.JPG");
+    background-size: cover;
+    border-radius: 50%;
+
+}
+.headquarterimg2{
+    height: 5em;
+    width: 5em;
+    border: 1px solid black;
+    background-image: url("https://awsimages.detik.net.id/community/media/visual/2022/07/20/kota-bandung_43.jpeg?w=1200");
+    background-size: cover;
+    border-radius: 50%;
+
+}
+.headquarterimg3{
+    height: 5em;
+    width: 5em;
+    border: 1px solid black;
+    background-image: url("https://ikbis.ac.id/wp-content/uploads/2021/03/Anda-di-Surabaya-Inilah-Pentingnya-Menggunakan-Konsultan-Pajak-Surabaya-1024x681.jpg");
+    background-size: cover;
+    border-radius: 50%;
+
+}
+.headquartercontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1em;
+}
