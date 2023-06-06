@@ -1,0 +1,58 @@
+header{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    border: 1px solid black;
+   
+}
+#textfooter{
+    display: flex;
+    justify-content: end;
+}
+
+.formoutput{
+    width: 50%;
+    border: 1px solid black;
+}
+
+
+#hero{
+    height: 578px;
+}
+
+#Message{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.nav-bar{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 40px;
+}
+
+.nav-bar :last-child{
+    border-right: none;
+}
+
+
+.nav-item{
+    padding: 5px 1em;
+    width: 90px;
+    border-right: 1px solid black;
+    cursor: pointer;
+}
+.nav-item:hover{
+    background: gray;
+}
+
+#revoulogo{
+    width: 50px;
+}
+.wrapper{
+    display: flex;
+}
