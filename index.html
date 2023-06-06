@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -94,4 +95,102 @@
 </html>
 
 <script src="js/index.js"></script>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pt Stefanus Jaya</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="js/index.js">
+    
+</head>
+
+<body>
+    <header>
+       <img src="img/revou.png" id="revoulogo" alt="Revou Logo">
+       <div class="nav-bar">
+        <div class="div nav-item"><a href="index.html">Home</a> </div>
+        <div class="div nav-item"><a href="profile.html">Our Profile</a></div>
+        <div class="div nav-item">Portofolio</div>
+        <div class="div nav-item">Messeage Us</div>
+       </div>
+    </header>
+    <h2>Hi <span id="nama"></span>, Welcome to website</h2>
+        <h3>Ini adalah website</h3>
+    <div id="hero">
+        <br>
+        <!-- <img src="img/bg.jpg" alt="background"> -->
+        
+    </div>
+    <div id="headquarter">
+        <h1><b>Our Headquarter</b></h1>
+        <div class="wrapper">
+
+            <div class="headquartercontainer">
+                <div class="headquarterimg1">
+                    
+                </div>
+                <p>jakarta</p>
+            </div>
+            <div class="headquartercontainer">
+                <div class="headquarterimg2">
+                    
+                </div>
+                <p>bandung</p>
+            </div>
+            <div class="headquartercontainer">
+                <div class="headquarterimg3">
+                    
+                </div>
+                <p>Surabaya</p>
+            </div>
+        </div>
+    </div>
+    <div id="Message">
+        <h1>Messeage Us</h1>
+        <form name="message" onsubmit="return validateform()" >
+           <table>
+            <tr>
+                <td>Nama: </td>
+                <td><input type="text" name="nama"></td>
+            </tr>
+            <tr>
+                <td>Tanggal lahir: </td>
+                <td><input type="date" name="tgl"></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin: </td>
+                <td><input type="radio" name="gender" value="Laki-Laki">Laki - Laki<input type="radio" name="gender" value="Perempuan">Perempuan</td>
+            </tr>
+            <tr>
+                <td>Pesan: </td>
+                <td><textarea name="pesan" id="" cols="30" rows="5"></textarea></td>
+            </tr>
+            
+           </table>
+
+           <input type="submit">
+        </form>
+        <br>
+        <div class="formoutput">
+            <p id="isiform">Nama: <span id="nameoutput"></span></p>
+            <p id="isiform">Tanggal Lahir: <span id="tgloutput"></span></p>
+            <p id="isiform">Gender: <span id="genderoutput"></span></p>
+            <p id="isiform">Pesan: <span id="pesanoutput"></span></p>
+        </div>
+        <br>
+    </div>
+    <br>
+    <br>
+    <footer>
+       <p id="textfooter">Created by Revou</p>
+    </footer>
+</body>
+</html>
+
+<script src="js/index.js"></script>
+>>>>>>> origin/master
 <script src="js/validationform.js"></script>
